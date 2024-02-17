@@ -21,7 +21,7 @@ const Info = () => {
             <SiLeetcode className="about__icon"/>
             <h3 className="about__title">Leetcode</h3>
             <span className="about__subtitle">
-                <a href="https://leetcode.com/prakash-cmd/" className="about__leetcode" target={"_blank"}>
+                <a href="https://leetcode.com/nagato19/" className="about__leetcode" target={"_blank"}>
                     prakash-cmd</a>
             </span>
         </div>
