@@ -10,7 +10,7 @@ const Experience = () => {
     };
 
     return (
-    <section className="services section" id="services">
+    <section className="services section" id="experience">
         <h2 className="section__title">Experience</h2>
         <span className="section__subtitle">FullTime + Internship</span>
     
@@ -18,7 +18,7 @@ const Experience = () => {
             <div className="services__content">
                 <div>
                     <HiOutlineClipboardList className="services__icon" />
-                    <h3 className="services__title"> <b>Amazon - </b> System Development Engineer Intern </h3>
+                    <h3 className="services__title"><b>Amazon - </b><br/> System Development Engineer Intern </h3>
                 </div>
                 <span className="services__button" onClick={() => toggleTab(1)}>
                     View More
