@@ -29,7 +29,7 @@ const Footer = () => {
                 <a href="https://github.com/prakash-cmd" className="footer__social-icon" target="_blank" rel="noreferrer">
                     <FaGithubSquare />
                 </a>
-                <a href="https://www.linkedin.com/in/prakashk19/" className="footer__social-icon" target="_blank" rel="noreferrer" >
+                <a href="https://www.linkedin.com/in/prakash-cmd/" className="footer__social-icon" target="_blank" rel="noreferrer" >
                     <FaLinkedin />
                 </a>    
             </div>

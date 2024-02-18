@@ -1,7 +1,6 @@
 import React from 'react';
 import { SiLeetcode } from "react-icons/si";
 import { FaUserGraduate, FaHome } from "react-icons/fa";
-import {HiOutlineArrowSmUp} from "react-icons/hi";
 
 
 const Info = () => {
