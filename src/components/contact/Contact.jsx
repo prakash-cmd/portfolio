@@ -10,9 +10,23 @@ const Contact = () => {
     
     const sendEmail = (e) => {
         e.preventDefault();
+
+        const name = form.current.name.value.trim();
+        const email = form.current.reply_to.value.trim();
+        const message = form.current.message.value.trim();
+
+        if (!name || !email || !message) {
+            window.alert('Please fill out all fields before sending the message.');
+            return;
+        }
     
         emailjs.sendForm('service_7intmsh', 'template_f6f01jb', form.current, 'exAJFN8-4FfbU7EC3')
-        e.target.reset();
+            .then((result) => {
+                window.alert('Your message has been sent successfully!');
+                e.target.reset();
+            }, (error) => {
+                window.alert('There was an error sending your message. Please try again later.');
+            });
     };
   
     return (
