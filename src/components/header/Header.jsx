@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import './header.css';
-import { HiOutlineHome, HiOutlineUser, HiOutlineBadgeCheck, HiOutlineClipboardList, HiOutlinePhotograph, HiOutlineMail, HiX, HiOutlineMenu } from "react-icons/hi";
+import { HiOutlineHome, HiOutlineUser, HiOutlineBadgeCheck, HiOutlineClipboardList, HiOutlineMail, HiX, HiOutlineMenu } from "react-icons/hi";
+import { AiOutlineProject } from "react-icons/ai";
 
 
 const Header = () => {
@@ -46,7 +47,7 @@ const Header = () => {
                         <li className="nav__item">
                             <a href="#projects" onClick={() => setActiveNav("#portfolio")}
                             className={activeNav === "#portfolio" ? "nav__link active-link" : "nav__link"}>
-                                <HiOutlinePhotograph className="nav__icon"/>Projects
+                                <AiOutlineProject className="nav__icon"/>Projects
                             </a>
                         </li>
                         <li className="nav__item">
