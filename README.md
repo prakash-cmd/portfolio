@@ -20,4 +20,4 @@ This image illustrates the workflow of the portfolio website's architecture, sho
 
 
 ## Credit
-This project was built following a tutorial by Cryptical Coder. It can be found [here](https://www.youtube.com/watch?v=3aCoZudPEKE&t=143s&ab_channel=CrypticalCoder).
+The frontend of this project was created based on a tutorial by Cryptical Coder. It covers building a portfolio website using ReactJS, EmailJS, and CSS. You can find the tutorial [here](https://www.youtube.com/watch?v=3aCoZudPEKE&t=143s&ab_channel=CrypticalCoder).

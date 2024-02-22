@@ -59,7 +59,7 @@ const Data = () => {
             Software Engineer
         </h3>
         <p className="home__description">
-            Software developer dedicated to design and creative solutions.
+            Software Engineer skilled in Java and AWS, passionate about advancing System Design and DevOps realms.
         </p>
 
         <a href="#contact" className="button button--flex">
