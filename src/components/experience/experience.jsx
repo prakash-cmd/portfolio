@@ -39,30 +39,28 @@ const Experience = () => {
                             <li className="services__modal-service">
                                 <HiOutlineCheckCircle className="services__modal-icon"/>
                                 <p className="services__modal-info">
-                                    Developed a package for automated ticket categorization, saving 3 weekly work hours
-                                    (2 SysDev and 1 SysDM).
-                                </p>
-                            </li>
-                            <li className="services__modal-service">
-                                <HiOutlineCheckCircle className="services__modal-icon"/>
-                                <p className="services__modal-info">
-                                    Automated WBR and weekly OpEx report, saving 1 hour/week for an on-call SysDev
-                                    engineer and 4 hours/week
-                                    for SysDM respectively.
-                                </p>
-                            </li>
-                            <li className="services__modal-service">
-                                <HiOutlineCheckCircle className="services__modal-icon"/>
-                                <p className="services__modal-info">
-                                    Created a fast automation script to fix a serious dnsmasq vulnerability on 162+
-                                    hosts, cutting resolution time from
-                                    months to hours.
-                                </p>
-                            </li>
-                            <li className="services__modal-service">
-                                <HiOutlineCheckCircle className="services__modal-icon"/>
-                                <p className="services__modal-info">
                                     Resolved 85+ Severity-3 (Partner Connectivity) tickets.
+                                </p>
+                            </li>
+                            <li className="services__modal-service">
+                                <HiOutlineCheckCircle className="services__modal-icon"/>
+                                <p className="services__modal-info">
+                                    Developed a package for automated ticket categorization, saving 3 weekly work hours (2 SysDev and 1 SysDM).
+                                </p>
+                            </li>
+                            <li className="services__modal-service">
+                                <HiOutlineCheckCircle className="services__modal-icon"/>
+                                <p className="services__modal-info">
+                                    Created a fast automation script to fix a serious dnsmasq vulnerability on 162+ hosts, cutting resolution
+                                    time from months to hours.
+
+                                </p>
+                            </li>
+                            <li className="services__modal-service">
+                                <HiOutlineCheckCircle className="services__modal-icon"/>
+                                <p className="services__modal-info">
+                                    Automated WBR and weekly OpEx report, saving 1 hour/week for an on-call system dev engineer
+                                    and 4 hours/week for a system dev manager respectively.
                                 </p>
                             </li>
                         </ul>
